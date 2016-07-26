@@ -205,7 +205,7 @@ user$ git clone --branch 0.4 https://github.com/DarkReZuS/silenteye.git
 1. Configure Kit and cmake http://doc.qt.io/qtcreator/creator-targets.html
 2. Open file or project => select silenteye/CMakeLists.txt
 3. Choose mingw generator and set parameter to "."
-4. Configure project compilation
+4. Configure project compilation (Вот до сюда дошел и встал в тупике. Не пойму что дальше делать:-()
   1. add environnement variable: ENABLE_MODULE set to 1
   2. add step (before mingw32-make). => cmake.exe with parameter "."
 5. Close Qt Creator and reopen it using your last session (force files scan)
